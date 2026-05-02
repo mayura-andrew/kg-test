@@ -1,0 +1,59 @@
+concept_id,formula_id,formula_name,latex,notation_plain,display_level,is_primary
+arithmetic,form_arith_1,Basic Operations,a + b \quad a - b \quad a \times b \quad a \div b,a+b  a-b  a×b  a÷b,1,true
+algebra,form_alg_1,Linear Equation,ax + b = c \Rightarrow x = \frac{c-b}{a},ax + b = c → x = (c-b)/a,1,true
+algebra,form_alg_2,Quadratic Formula,x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a},x = (-b ± √(b²-4ac)) / 2a,2,false
+coordinate_geometry,form_coord_1,Distance Formula,d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2},d = √((x₂-x₁)² + (y₂-y₁)²),1,true
+coordinate_geometry,form_coord_2,Slope of a Line,m = \frac{y_2 - y_1}{x_2 - x_1},m = (y₂-y₁) / (x₂-x₁),1,false
+pythagorean_theorem,form_pyth_1,Pythagorean Theorem,a^2 + b^2 = c^2,a² + b² = c²,1,true
+similar_triangles,form_similar_1,Similar Triangle Ratio,\frac{r}{h} = \frac{R}{H},r/h = R/H,1,true
+trigonometry_basics,form_trig_1,SOH-CAH-TOA,\sin\theta = \frac{\text{opp}}{\text{hyp}} \quad \cos\theta = \frac{\text{adj}}{\text{hyp}} \quad \tan\theta = \frac{\text{opp}}{\text{adj}},sin θ = opp/hyp  cos θ = adj/hyp  tan θ = opp/adj,1,true
+unit_circle,form_unit_1,Unit Circle Identity,\cos^2\theta + \sin^2\theta = 1,cos²θ + sin²θ = 1,1,true
+unit_circle,form_unit_2,Euler's Formula,e^{i\theta} = \cos\theta + i\sin\theta,e^(iθ) = cos θ + i·sin θ,2,false
+func_basics,form_func_1,Function Notation,f: A \to B \quad y = f(x),f: A → B  or  y = f(x),1,true
+func_basics,form_func_2,Composition,(f \circ g)(x) = f(g(x)),(f∘g)(x) = f(g(x)),1,false
+limits,form_limit_def,Limit Definition,\lim_{x \to a} f(x) = L,lim(x→a) f(x) = L,1,true
+limits,form_limit_inf,Limit at Infinity,\lim_{x \to \infty} \frac{1}{x} = 0,lim(x→∞) 1/x = 0,2,false
+continuity,form_cont_1,Continuity Condition,\lim_{x \to a} f(x) = f(a),lim(x→a) f(x) = f(a),1,true
+derivatives,form_deriv_limit,Derivative Definition,f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h},f'(x) = lim(h→0) [f(x+h)-f(x)]/h,1,true
+derivatives,form_deriv_notation,Leibniz Notation,\frac{dy}{dx} = \frac{d}{dx}[f(x)],dy/dx = d/dx[f(x)],1,false
+power_rule,form_power_1,Power Rule,\frac{d}{dx}[x^n] = nx^{n-1},d/dx[xⁿ] = n·xⁿ⁻¹,1,true
+product_rule,form_product_1,Product Rule,(fg)' = f'g + fg',(f·g)' = f'·g + f·g',1,true
+quotient_rule,form_quotient_1,Quotient Rule,\left(\frac{f}{g}\right)' = \frac{f'g - fg'}{g^2},(f/g)' = (f'·g - f·g') / g²,1,true
+chain_rule,form_chain_1,Standard Chain Rule,\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x),d/dx[f(g(x))] = f'(g(x))·g'(x),1,true
+chain_rule,form_chain_2,Leibniz Chain Rule,\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx},dy/dx = (dy/du)·(du/dx),1,false
+trigonometric_functions,form_trig_sin,Sine Period,\sin(x + 2\pi) = \sin(x),sin(x + 2π) = sin(x),1,true
+trigonometric_functions,form_trig_tan,Tangent Definition,\tan x = \frac{\sin x}{\cos x},tan x = sin x / cos x,1,false
+trigonometric_derivatives,form_trig_dsin,Derivative of Sin,\frac{d}{dx}[\sin x] = \cos x,d/dx[sin x] = cos x,1,true
+trigonometric_derivatives,form_trig_dcos,Derivative of Cos,\frac{d}{dx}[\cos x] = -\sin x,d/dx[cos x] = −sin x,1,false
+trigonometric_derivatives,form_trig_dtan,Derivative of Tan,\frac{d}{dx}[\tan x] = \sec^2 x,d/dx[tan x] = sec²x,2,false
+exponential_functions,form_exp_deriv,Exponential Derivative,\frac{d}{dx}[e^x] = e^x,d/dx[eˣ] = eˣ,1,true
+exponential_functions,form_exp_gen,General Exponential,\frac{d}{dx}[a^x] = a^x \ln a,d/dx[aˣ] = aˣ·ln a,2,false
+logarithmic_functions,form_ln_deriv,Natural Log Derivative,\frac{d}{dx}[\ln x] = \frac{1}{x},d/dx[ln x] = 1/x,1,true
+logarithmic_functions,form_log_gen,Log Differentiation,\frac{d}{dx}[\log_a x] = \frac{1}{x \ln a},d/dx[log_a x] = 1/(x·ln a),2,false
+implicit_differentiation,form_implicit_1,Implicit Diff (y²),\frac{d}{dx}[y^2] = 2y\frac{dy}{dx},d/dx[y²] = 2y·(dy/dx),1,true
+related_rates,form_rr_ladder,Pythagorean Rate,2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 0,2x·(dx/dt) + 2y·(dy/dt) = 0,1,true
+related_rates,form_rr_volume_sphere,Sphere Volume Rate,\frac{dV}{dt} = 4\pi r^2 \frac{dr}{dt},dV/dt = 4πr²·(dr/dt),2,false
+critical_points,form_cp_1,Critical Point Condition,f'(c) = 0 \text{ or } f'(c) \text{ undefined},f'(c) = 0  or  f'(c) undefined,1,true
+second_derivative_test,form_sdt_1,Second Derivative Test,f''(c) > 0 \Rightarrow \text{min} \quad f''(c) < 0 \Rightarrow \text{max},f''(c) > 0 → min;  f''(c) < 0 → max,1,true
+optimization,form_opt_critical,Optimisation Condition,\frac{df}{dx} = 0 \Rightarrow \text{candidate extremum},df/dx = 0 → candidate extremum,1,true
+curve_sketching,form_cs_inflection,Inflection Point,f''(x) = 0 \text{ and sign of } f'' \text{ changes},f''(x) = 0 and sign of f'' changes,1,true
+integration,form_int_basic,Power Integration,\int x^n dx = \frac{x^{n+1}}{n+1} + C,∫xⁿ dx = xⁿ⁺¹/(n+1) + C,1,true
+indefinite_integrals,form_indef_1,Indefinite Integral,\int f(x)dx = F(x) + C \text{ where } F'(x) = f(x),∫f(x)dx = F(x) + C  where F'(x)=f(x),1,true
+definite_integrals,form_def_1,Definite Integral,\int_a^b f(x)dx = F(b) - F(a),∫[a→b] f(x)dx = F(b) − F(a),1,true
+substitution,form_sub_1,U-Substitution,\int f(g(x))g'(x)dx = \int f(u)du,∫f(g(x))g'(x)dx = ∫f(u)du,1,true
+integration_by_parts,form_ibp_1,Integration by Parts,"\int u \, dv = uv - \int v \, du",∫u dv = uv − ∫v du,1,true
+fundamental_theorem,form_ftc_1,FTC Part 1,\frac{d}{dx}\left[\int_a^x f(t)dt\right] = f(x),d/dx[∫ₐˣ f(t)dt] = f(x),1,true
+fundamental_theorem,form_ftc_2,FTC Part 2,\int_a^b f(x)dx = F(b) - F(a),∫[a→b] f(x)dx = F(b) − F(a),1,false
+area_between_curves,form_area_1,Area Between Curves,A = \int_a^b |f(x) - g(x)| dx,A = ∫[a→b] |f(x)−g(x)| dx,1,true
+volume_revolution,form_vol_disk,Disk Method,V = \pi \int_a^b [f(x)]^2 dx,V = π·∫[a→b] [f(x)]² dx,1,true
+volume_revolution,form_vol_shell,Shell Method,V = 2\pi \int_a^b x \cdot f(x) dx,V = 2π·∫[a→b] x·f(x) dx,2,false
+sequences_series,form_seq_1,Geometric Series Sum,S = \frac{a}{1-r} \text{ for } |r| < 1,S = a/(1−r) for |r|<1,1,true
+sequences_series,form_seq_2,nth Term Test,\text{If } \lim_{n\to\infty} a_n \neq 0 \text{ then } \sum a_n \text{ diverges},If lim(n→∞) aₙ ≠ 0 then Σaₙ diverges,2,false
+convergence_tests,form_conv_ratio,Ratio Test,L = \lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right| \quad L < 1 \Rightarrow \text{converges},L = lim|aₙ₊₁/aₙ|  L<1 → converges,1,true
+taylor_series,form_taylor_1,Taylor Series,f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n,f(x) = Σ[f⁽ⁿ⁾(a)/n!]·(x−a)ⁿ,1,true
+taylor_series,form_taylor_ex,e^x Maclaurin,e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \cdots,eˣ = 1 + x + x²/2! + x³/3! + …,2,false
+partial_derivatives,form_partial_1,Partial Derivative,"\frac{\partial f}{\partial x}\bigg|_y = \lim_{h\to 0}\frac{f(x+h,y)-f(x,y)}{h}","∂f/∂x|y = lim[f(x+h,y)−f(x,y)]/h",1,true
+partial_derivatives,form_gradient,Gradient Vector,"\nabla f = \left(\frac{\partial f}{\partial x},\frac{\partial f}{\AA y}\right)","∇f = (∂f/∂x, ∂f/∂y)",2,false
+multiple_integrals,form_double_1,Double Integral,"\iint_R f(x,y)\,dA = \int_a^b\int_c^d f(x,y)\,dy\,dx","∬_R f(x,y)dA = ∫∫f(x,y)dy dx",1,true
+vector_calculus,form_div_1,Divergence,\nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z},∇·F = ∂Fx/∂x + ∂Fy/∂y + ∂Fz/∂z,1,true
+vector_calculus,form_curl_1,Curl,\nabla \times \mathbf{F},∇×F,2,false

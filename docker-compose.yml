@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+
+  neo4j:
+    image: neo4j:5.20.0-community
+    container_name: unpack-neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: "neo4j/${NEO4J_PASSWORD:-changeme}"
+      NEO4J_server_memory_heap_initial__size: "512m"
+      NEO4J_server_memory_heap_max__size: "1g"
+      NEO4J_server_memory_pagecache_size: "256m"
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_plugins:/plugins
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1",
+             "--spider", "http://localhost:7474/browser/"]
+      interval: 10s
+      timeout: 10s
+      retries: 20
+      start_period: 30s
+
+  migrate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: unpack-kg-migrate
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    environment:
+      NEO4J_URI: "bolt://neo4j:7687"
+      NEO4J_USER: "neo4j"
+      NEO4J_PASSWORD: "${NEO4J_PASSWORD:-changeme}"
+    volumes:
+      - ./data:/app/data:ro
+    restart: "no"
+    command: ["./migrate", "--data", "data/raw", "--verify"]
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_plugins:

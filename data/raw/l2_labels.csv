@@ -1,0 +1,157 @@
+concept_id,label_id,language_code,label,description_l2,curriculum_name,text_direction
+arithmetic,l2_arith_si,si,අංකගණිතය,සංඛ්‍යා සමඟ මූලික ගණිත ක්‍රියා,අංකගණිතය,ltr
+arithmetic,l2_arith_ta,ta,எண்கணிதம்,எண்களுடன் அடிப்படை கணித செயல்பாடுகள்,எண்கணிதம்,ltr
+arithmetic,l2_arith_ar,ar,الحساب,العمليات الحسابية الأساسية مع الأعداد,الحساب,rtl
+arithmetic,l2_arith_zh,zh,算术,数的基本运算,算术,ltr
+algebra,l2_alg_si,si,වීජ ගණිතය,සංකේත හා සමීකරණ භාවිතා කරමින් ගණිතය,වීජ ගණිතය,ltr
+algebra,l2_alg_ta,ta,இயற்கணிதம்,குறியீடுகள் மற்றும் சமன்பாடுகளைப் பயன்படுத்தும் கணிதம்,இயற்கணிதம்,ltr
+algebra,l2_alg_ar,ar,الجبر,الرياضيات باستخدام الرموز والمعادلات,الجبر,rtl
+algebra,l2_alg_zh,zh,代数,使用符号和方程式的数学,代数,ltr
+coordinate_geometry,l2_coord_si,si,ඛණ්ඩාංක ජ්‍යාමිතිය,x-y තලයේ ලක්ෂ්‍ය හා රේඛා,ඛණ්ඩාංක ජ්‍යාමිතිය,ltr
+coordinate_geometry,l2_coord_ta,ta,ஆள்கோட்டு வடிவியல்,x-y தளத்தில் புள்ளிகள் மற்றும் கோடுகள்,ஆள்கோட்டு வடிவியல்,ltr
+coordinate_geometry,l2_coord_ar,ar,الهندسة الإحداثية,النقاط والخطوط على المستوى الإحداثي,الهندسة الإحداثية,rtl
+coordinate_geometry,l2_coord_zh,zh,坐标几何,坐标系中的点和线,坐标几何,ltr
+pythagorean_theorem,l2_pyth_si,si,පිතාගරස් ප්‍රමේය,දකුණු කෝණ ත්‍රිකෝණයේ a² + b² = c²,පිතාගරස් ප්‍රමේය,ltr
+pythagorean_theorem,l2_pyth_ta,ta,பித்தகோரஸ் தேற்றம்,செங்கோண முக்கோணத்தில் a² + b² = c²,பித்தகோரஸ் தேற்றம்,ltr
+pythagorean_theorem,l2_pyth_ar,ar,نظرية فيثاغورس,في المثلث القائم a² + b² = c²,نظرية فيثاغورس,rtl
+pythagorean_theorem,l2_pyth_zh,zh,勾股定理,直角三角形中 a² + b² = c²,勾股定理,ltr
+similar_triangles,l2_sim_si,si,සමාන ත්‍රිකෝණ,සමාන කෝණ ඇති ත්‍රිකෝණ — අනුපාතය සමාන,සමාන ත්‍රිකෝණ,ltr
+similar_triangles,l2_sim_ta,ta,ஒத்த முக்கோணங்கள்,சம கோணங்கள் கொண்ட முக்கோணங்கள் — விகிதங்கள் சமம்,ஒத்த முக்கோணங்கள்,ltr
+similar_triangles,l2_sim_ar,ar,المثلثات المتشابهة,مثلثات ذات زوايا متساوية ونسب أضلاع متساوية,المثلثات المتشابهة,rtl
+similar_triangles,l2_sim_zh,zh,相似三角形,角度相等的三角形其对应边成比例,相似三角形,ltr
+trigonometry_basics,l2_trig_si,si,ත්‍රිකෝණමිතිය,ත්‍රිකෝණවල කෝණ හා දිග අතර සම්බන්ධය,ත්‍රිකෝණමිතිය,ltr
+trigonometry_basics,l2_trig_ta,ta,முக்கோணவியல்,முக்கோணங்களில் கோணங்களும் பக்கங்களும் தொடர்பு,முக்கோணவியல்,ltr
+trigonometry_basics,l2_trig_ar,ar,علم المثلثات,العلاقة بين الزوايا والأضلاع في المثلثات,علم المثلثات,rtl
+trigonometry_basics,l2_trig_zh,zh,三角学,三角形中角度与边长的关系,三角学,ltr
+unit_circle,l2_unit_si,si,ඒකක වෘත්තය,අරය 1 ක් ඇති වෘත්තය — ත්‍රිකෝණමිතික අර්ථ දැක්වීම,ඒකක වෘත්තය,ltr
+unit_circle,l2_unit_ta,ta,அலகு வட்டம்,ஆரம் 1 கொண்ட வட்டம் — முக்கோணவியல் வரையறை,அலகு வட்டம்,ltr
+unit_circle,l2_unit_ar,ar,الدائرة الوحدة,دائرة نصف قطرها 1 لتعريف الدوال المثلثية,الدائرة الوحدة,rtl
+unit_circle,l2_unit_zh,zh,单位圆,半径为1的圆用于定义三角函数,单位圆,ltr
+func_basics,l2_func_si,si,ශ්‍රිත,ආදාන-ප්‍රතිදාන නිර්ණය කිරීමේ ගණිත නියමය,ශ්‍රිත,ltr
+func_basics,l2_func_ta,ta,சார்புகள்,உள்ளீடு-வெளியீடு தொடர்பு கோட்பாடு,சார்புகள்,ltr
+func_basics,l2_func_ar,ar,الدوال,قاعدة رياضية تربط المدخلات بالمخرجات,الدوال,rtl
+func_basics,l2_func_zh,zh,函数,将输入映射到输出的数学规则,函数,ltr
+limits,l2_lim_si,si,සීමාව,ශ්‍රිතයක් ළඟා වන අගය,සීමාව,ltr
+limits,l2_lim_ta,ta,எல்லை,ஒரு சார்பு நெருங்கும் மதிப்பு,எல்லை,ltr
+limits,l2_lim_ar,ar,النهاية,القيمة التي تقترب منها الدالة,النهاية,rtl
+limits,l2_lim_zh,zh,极限,函数趋近的值,极限,ltr
+continuity,l2_cont_si,si,සතතභාවය,ශ්‍රිතයේ බිඳීම් නැතිවීමේ ගුණය,සතතභාවය,ltr
+continuity,l2_cont_ta,ta,தொடர்ச்சி,சார்பில் இடைவெட்டு இல்லாத தன்மை,தொடர்ச்சி,ltr
+continuity,l2_cont_ar,ar,الاستمرارية,خاصية الدالة التي لا تحتوي على انقطاعات,الاستمرارية,rtl
+continuity,l2_cont_zh,zh,连续性,函数无间断的性质,连续性,ltr
+derivatives,l2_deriv_si,si,අවකලිතය,ශ්‍රිතයක ක්ෂණික වෙනස් වීමේ අනුපාතය,අවකලිතය,ltr
+derivatives,l2_deriv_ta,ta,வகைக்கெழு,சார்பின் உடனடி மாற்ற வீதம்,வகைக்கெழு,ltr
+derivatives,l2_deriv_ar,ar,المشتقة,معدل التغيير اللحظي للدالة,المشتقة,rtl
+derivatives,l2_deriv_zh,zh,导数,函数的瞬时变化率,导数,ltr
+chain_rule,l2_chain_si,si,දාම නීතිය,සංයෝජිත ශ්‍රිතයක අවකලනය,දාම නීතිය,ltr
+chain_rule,l2_chain_ta,ta,சங்கிலி விதி,கூட்டு சார்பின் வகைக்கெழு காண நியதி,சங்கிலி விதி,ltr
+chain_rule,l2_chain_ar,ar,قاعدة السلسلة,قاعدة إيجاد مشتقة الدالة المركبة,قاعدة السلسلة,rtl
+chain_rule,l2_chain_zh,zh,链式法则,求复合函数导数的法则,链式法则,ltr
+implicit_differentiation,l2_impl_si,si,ව්‍යංග අවකලනය,y සෘජුව නිර්ණය නොකර dy/dx සෙවීම,ව්‍යංග අවකලනය,ltr
+implicit_differentiation,l2_impl_ta,ta,மறைமுக வகைக்கீடு,y ஐ வெளிப்படையாக தீர்க்காமல் dy/dx காணுதல்,மறைமுக வகைக்கீடு,ltr
+implicit_differentiation,l2_impl_ar,ar,التفاضل الضمني,إيجاد dy/dx دون حل المعادلة صراحةً لـ y,التفاضل الضمني,rtl
+implicit_differentiation,l2_impl_zh,zh,隐函数微分,不显式求解y直接求dy/dx,隐函数微分,ltr
+related_rates,l2_rr_si,si,සම්බන්ධිත අනුපාත,කාලය සාපේක්ෂව සම්බන්ධිත රාශිවල අනුපාත,සම්බන්ධිත අනුපාත,ltr
+related_rates,l2_rr_ta,ta,தொடர்புடைய வீதங்கள்,காலத்துடன் தொடர்புடைய அளவுகளின் வீத கணக்குகள்,தொடர்புடைய வீதங்கள்,ltr
+related_rates,l2_rr_ar,ar,المعدلات المترابطة,مسائل معدلات تغيير الكميات المترابطة بالنسبة للزمن,المعدلات المترابطة,rtl
+related_rates,l2_rr_zh,zh,相关变化率,与时间相关的变化率问题,相关变化率,ltr
+optimization,l2_opt_si,si,ප්‍රශස්ත කිරීම,ශ්‍රිතවල උපරිම හා අවම සෙවීම,ප්‍රශස්ත කිරීම,ltr
+optimization,l2_opt_ta,ta,உகப்பாக்கல்,சார்புகளின் உச்ச/குறைந்தபட்ச மதிப்புகள் காணுதல்,உகப்பாக்கல்,ltr
+optimization,l2_opt_ar,ar,التحسين,إيجاد القيم القصوى والصغرى للدوال,التحسين,rtl
+optimization,l2_opt_zh,zh,最优化,求函数的最大值和最小值,最优化,ltr
+integration,l2_int_si,si,අනුකලිතය,ශ්‍රිතයේ ප්‍රතිඅවකලිතය හා වක්‍රය යටතේ වර්ගඵලය,අනුකලිතය,ltr
+integration,l2_int_ta,ta,தொகையீடு,சார்பின் வலிச்சொர் மற்றும் வளைகோட்டின் கீழ் பரப்பு,தொகையீடு,ltr
+integration,l2_int_ar,ar,التكامل,المشتق العكسي والمساحة تحت المنحنى,التكامل,rtl
+integration,l2_int_zh,zh,积分,反导数与曲线下面积,积分,ltr
+fundamental_theorem,l2_ftc_si,si,කලනයේ මූලික ප්‍රමේය,අවකලනය හා අනුකලනය සම්බන්ධ කරන ප්‍රමේය,කලනයේ මූලික ප්‍රමේය,ltr
+fundamental_theorem,l2_ftc_ta,ta,நுண்கணிதத்தின் அடிப்படைத் தேற்றம்,வகையீடும் தொகையீடும் இணைக்கும் தேற்றம்,நுண்கணிதத்தின் அடிப்படைத் தேற்றம்,ltr
+fundamental_theorem,l2_ftc_ar,ar,النظرية الأساسية في حساب التفاضل والتكامل,النظرية التي تربط التفاضل بالتكامل,النظرية الأساسية,rtl
+fundamental_theorem,l2_ftc_zh,zh,微积分基本定理,联系微分与积分的定理,微积分基本定理,ltr
+taylor_series,l2_taylor_si,si,ටේලර් ශ්‍රේණිය,ශ්‍රිතයක් ලෙස අනන්ත බහු පද ශ්‍රේණිය,ටේලර් ශ්‍රේණිය,ltr
+taylor_series,l2_taylor_ta,ta,டெய்லர் தொடர்,சார்பை எல்லையற்ற பல்லுறுப்புக்கோவையாக வெளிப்படுத்துதல்,டெய்லர் தொடர்,ltr
+taylor_series,l2_taylor_ar,ar,متسلسلة تايلور,تمثيل الدالة كمتسلسلة كثيرة الحدود لا نهائية,متسلسلة تايلور,rtl
+taylor_series,l2_taylor_zh,zh,泰勒级数,将函数表示为无穷多项式级数,泰勒级数,ltr
+power_rule,l2_pow_si,si,ඝාත නීතිය,x^n හි අවකලිතය n·x^(n-1),ඝාත නීතිය,ltr
+power_rule,l2_pow_ta,ta,அடுக்கு விதி,x^n இன் வகைக்கெழு n·x^(n-1),அடுக்கு விதி,ltr
+power_rule,l2_pow_ar,ar,قاعدة القوة,مشتقة x^n هي n·x^(n-1),قاعدة القوة,rtl
+power_rule,l2_pow_zh,zh,幂法则,x^n的导数是n·x^(n-1),幂法则,ltr
+product_rule,l2_prod_si,si,ගුණිත නීතිය,ශ්‍රිත දෙකක ගුණිතයේ අවකලිතය,ගුණිත නීතිය,ltr
+product_rule,l2_prod_ta,ta,பெருக்கல் விதி,இரண்டு சார்புகளின் பெருக்கத்தின் வகைக்கெழு,பெருக்கல் விதி,ltr
+product_rule,l2_prod_ar,ar,قاعدة الضرب,مشتقة حاصل ضرب دالتين,قاعدة الضرب,rtl
+product_rule,l2_prod_zh,zh,乘积法则,两个函数乘积的导数,乘积法则,ltr
+quotient_rule,l2_quot_si,si,ලබ්ධ නීතිය,ශ්‍රිත දෙකක ලබ්ධියේ අවකලිතය,ලබ්ධ නීතිය,ltr
+quotient_rule,l2_quot_ta,ta,வகுத்தல் விதி,இரண்டு சார்புகளின் ஈவின் வகைக்கெழு,வகுத்தல் விதி,ltr
+quotient_rule,l2_quot_ar,ar,قاعدة القسمة,مشتقة حاصل قسمة دالتين,قاعدة القسمة,rtl
+quotient_rule,l2_quot_zh,zh,商法则,两函数之商的导数,商法则,ltr
+trigonometric_functions,l2_tfn_si,si,ත්‍රිකෝණමිතික ශ්‍රිත,sin cos tan ශ්‍රිත — කෝණ පදනම් කරගත්,ත්‍රිකෝණමිතික ශ්‍රිත,ltr
+trigonometric_functions,l2_tfn_ta,ta,முக்கோணவியல் சார்புகள்,sin cos tan சார்புகள் — கோணங்களை அடிப்படையாகக் கொண்டவை,முக்கோணவியல் சார்புகள்,ltr
+trigonometric_functions,l2_tfn_ar,ar,الدوال المثلثية,دوال sin و cos و tan المبنية على الزوايا,الدوال المثلثية,rtl
+trigonometric_functions,l2_tfn_zh,zh,三角函数,以角度为基础的sin cos tan函数,三角函数,ltr
+trigonometric_derivatives,l2_td_si,si,ත්‍රිකෝණමිතික ශ්‍රිතවල අවකලිත,sin cos tan හි අවකලිත නීති,ත්‍රිකෝණමිතික අවකලිත,ltr
+trigonometric_derivatives,l2_td_ta,ta,முக்கோணவியல் வகைக்கெழுக்கள்,sin cos tan இன் வகைக்கெழு விதிகள்,முக்கோணவியல் வகைக்கெழுக்கள்,ltr
+trigonometric_derivatives,l2_td_ar,ar,مشتقات المثلثية,قواعد مشتقات sin و cos و tan,مشتقات الدوال المثلثية,rtl
+trigonometric_derivatives,l2_td_zh,zh,三角导数,sin cos tan的导数法则,三角函数导数,ltr
+exponential_functions,l2_exp_si,si,ඝාතාංක ශ්‍රිත,e^x හෝ a^x ස්වරූපයේ ශ්‍රිත,ඝාතාංක ශ්‍රිත,ltr
+exponential_functions,l2_exp_ta,ta,அடுக்கு சார்புகள்,e^x அல்லது a^x வடிவிலான சார்புகள்,அடுக்கு சார்புகள்,ltr
+exponential_functions,l2_exp_ar,ar,الدوال الأسية,دوال على شكل e^x أو a^x,الدوال الأسية,rtl
+exponential_functions,l2_exp_zh,zh,指数函数,形如e^x或a^x的函数,指数函数,ltr
+logarithmic_functions,l2_log_si,si,ලෝගරිතමික ශ්‍රිත,ඝාතාංක ශ්‍රිතවල ප්‍රතිශ්‍රිත — ln(x),ලෝගරිතමික ශ්‍රිත,ltr
+logarithmic_functions,l2_log_ta,ta,மடக்கை சார்புகள்,அடுக்கு சார்புகளின் நேர்மாறு சார்புகள் — ln(x),மடக்கை சார்புகள்,ltr
+logarithmic_functions,l2_log_ar,ar,الدوال اللوغاريتمية,الدوال العكسية للدوال الأسية — ln(x),الدوال اللوغاريتمية,rtl
+logarithmic_functions,l2_log_zh,zh,对数函数,指数函数的反函数 — ln(x),对数函数,ltr
+critical_points,l2_cp_si,si,ශීර්ෂ ලක්ෂ්‍ය,f'(c) = 0 හෝ නිර්ණය නොවන ලක්ෂ්‍ය,ශීර්ෂ ලක්ෂ්‍ය,ltr
+critical_points,l2_cp_ta,ta,முக்கியப் புள்ளிகள்,f'(c) = 0 அல்லது வரையறுக்கப்படாத புள்ளிகள்,முக்கியப் புள்ளிகள்,ltr
+critical_points,l2_cp_ar,ar,النقاط الحرجة,النقاط التي تكون فيها f'(c) = 0 أو غير معرفة,النقاط الحرجة,rtl
+critical_points,l2_cp_zh,zh,临界点,f'(c)=0或不存在的点,临界点,ltr
+second_derivative_test,l2_sdt_si,si,ද්විතීය අවකලිත පරීක්ෂාව,ශීර්ෂ ලක්ෂ්‍ය උපරිම හෝ අවම ලෙස වර්ගීකරණය,ද්විතීය අවකලිත පරීක්ෂාව,ltr
+second_derivative_test,l2_sdt_ta,ta,இரண்டாம் வகைக்கெழு சோதனை,முக்கியப் புள்ளிகளை உச்சம் அல்லது அடியாக வகைப்படுத்துதல்,இரண்டாம் வகைக்கெழு சோதனை,ltr
+second_derivative_test,l2_sdt_ar,ar,اختبار المشتقة الثانية,تصنيف النقاط الحرجة كحد أقصى أو أدنى,اختبار المشتقة الثانية,rtl
+second_derivative_test,l2_sdt_zh,zh,二阶导数检验,将临界点分类为极大值或极小值,二阶导数检验,ltr
+curve_sketching,l2_cs_si,si,වක්‍ර ඇඳීම,කලනය භාවිතා කරමින් ශ්‍රිතය ඇඳීම,වක්‍ර ඇඳීම,ltr
+curve_sketching,l2_cs_ta,ta,வளைகோடு வரைவு,நுண்கணிதம் பயன்படுத்தி சார்புகளை வரைதல்,வளைகோடு வரைவு,ltr
+curve_sketching,l2_cs_ar,ar,رسم المنحنيات,رسم الدوال باستخدام حساب التفاضل,رسم المنحنيات,rtl
+curve_sketching,l2_cs_zh,zh,曲线绘制,用微积分分析和绘制函数,曲线绘制,ltr
+indefinite_integrals,l2_indef_si,si,අසීමිත අනුකලිත,සීමා නොමැතිව ශ්‍රිතයේ ප්‍රතිඅවකලිතය,අසීමිත අනුකලිත,ltr
+indefinite_integrals,l2_indef_ta,ta,வரம்பற்ற தொகைகள்,எல்லைகளற்ற வலிச்சொர் சார்பு,வரம்பற்ற தொகைகள்,ltr
+indefinite_integrals,l2_indef_ar,ar,التكاملات غير المحددة,الدالة الأولية بدون حدود,التكاملات غير المحددة,rtl
+indefinite_integrals,l2_indef_zh,zh,不定积分,没有界限的原函数,不定积分,ltr
+definite_integrals,l2_def_si,si,සීමිත අනුකලිත,නිශ්චිත පරාසයක් මත ශ්‍රිතයේ සංඛ්‍යාත්මක අනුකලිතය,සීමිත අනුකලිත,ltr
+definite_integrals,l2_def_ta,ta,வரையறுத்த தொகைகள்,குறிப்பிட்ட இடைவெளியில் எண்ணியல் தொகை,வரையறுத்த தொகைகள்,ltr
+definite_integrals,l2_def_ar,ar,التكاملات المحددة,التكامل العددي على فترة محددة,التكاملات المحددة,rtl
+definite_integrals,l2_def_zh,zh,定积分,在特定区间上的数值积分,定积分,ltr
+substitution,l2_sub_si,si,ආදේශ ක්‍රමය,u = g(x) ආදේශ කිරීමෙන් අනුකලනය,ආදේශ ක්‍රමය,ltr
+substitution,l2_sub_ta,ta,பதிலீட்டு முறை,u = g(x) மாற்றி தொகையிடுதல்,பதிலீட்டு முறை,ltr
+substitution,l2_sub_ar,ar,طريقة الإحلال,التكامل باستبدال u = g(x),طريقة الإحلال,rtl
+substitution,l2_sub_zh,zh,换元法,令u=g(x)进行积分变量替换,换元法,ltr
+integration_by_parts,l2_ibp_si,si,කොටස් මගින් අනුකලනය,ශ්‍රිත ගුණිත සඳහා ∫u dv = uv - ∫v du,කොටස් මගින් අනුකලනය,ltr
+integration_by_parts,l2_ibp_ta,ta,பகுதிகளாக தொகையிடல்,∫u dv = uv − ∫v du என்ற நியதி,பகுதிகளாக தொகையிடல்,ltr
+integration_by_parts,l2_ibp_ar,ar,التكامل بالأجزاء,∫u dv = uv − ∫v du,التكامل بالأجزاء,rtl
+integration_by_parts,l2_ibp_zh,zh,分部积分,∫u dv = uv − ∫v du,分部积分,ltr
+area_between_curves,l2_area_si,si,වක්‍ර අතර වර්ගඵලය,නිශ්චිත අනුකලිතය භාවිතා කරමින් වක්‍ර අතර වර්ගඵලය,වක්‍ර අතර වර්ගඵලය,ltr
+area_between_curves,l2_area_ta,ta,வளைகோடுகளுக்கு இடையேயான பரப்பு,திட்டவட்டமான தொகைகள் மூலம் வளைகோடுகளுக்கு இடையேயான பரப்பு,வளைகோடுகளுக்கு இடையேயான பரப்பு,ltr
+area_between_curves,l2_area_ar,ar,المساحة بين المنحنيين,المساحة بين منحنيين باستخدام التكاملات المحددة,المساحة بين المنحنيين,rtl
+area_between_curves,l2_area_zh,zh,曲线间面积,用定积分求两曲线间的面积,曲线间面积,ltr
+volume_revolution,l2_vol_si,si,භ්‍රමණ ඝන ගණනය,වක්‍ර භ්‍රමණය කිරීමෙන් ලැබෙන ඝනයේ ඝනය,භ්‍රමණ ඝන ගණනය,ltr
+volume_revolution,l2_vol_ta,ta,சுழற்சி ஘னபரிமாணம்,வளைகோட்டை சுழற்றி உருவாகும் திண்மத்தின் கொள்ளளவு,சுழற்சி ஘னபரிமாணம்,ltr
+volume_revolution,l2_vol_ar,ar,حجم الدوران,حجم المجسم الناتج عن تدوير منحنى,حجم الدوران,rtl
+volume_revolution,l2_vol_zh,zh,旋转体体积,曲线旋转形成的立体体积,旋转体体积,ltr
+sequences_series,l2_seq_si,si,අනුක්‍රම හා ශ්‍රේණි,සංඛ්‍යා ලැයිස්තු හා ඒවායේ එකතු,අනුක්‍රම හා ශ්‍රේණි,ltr
+sequences_series,l2_seq_ta,ta,தொடர்கள் மற்றும் தொடர்வரிசைகள்,எண்களின் வரிசைப் பட்டியல்கள் மற்றும் அவற்றின் கூடுதல்கள்,தொடர்கள் மற்றும் தொடர்வரிசைகள்,ltr
+sequences_series,l2_seq_ar,ar,المتتاليات والمتسلسلات,قوائم الأعداد المرتبة ومجاميعها,المتتاليات والمتسلسلات,rtl
+sequences_series,l2_seq_zh,zh,数列与级数,有序数的列表及其求和,数列与级数,ltr
+convergence_tests,l2_conv_si,si,අභිසාරිතා පරීක්ෂා,අනන්ත ශ්‍රේණිය අභිසාර කදැයි දැනගැනීමේ ක්‍රම,අභිසාරිතා පරීක්ෂා,ltr
+convergence_tests,l2_conv_ta,ta,ஒருங்கிணைவு சோதனைகள்,எல்லையற்ற தொடர் ஒருங்கிணைகிறதா என்று அறியும் முறைகள்,ஒருங்கிணைவு சோதனைகள்,ltr
+convergence_tests,l2_conv_ar,ar,اختبارات التقارب,طرق لتحديد ما إذا كانت المتسلسلة اللانهائية تتقارب,اختبارات التقارب,rtl
+convergence_tests,l2_conv_zh,zh,收敛检验,判断无穷级数是否收敛的方法,收敛检验,ltr
+partial_derivatives,l2_part_si,si,අර්ධ අවකලිත,බහු විචල්‍ය ශ්‍රිතවල එක් විචල්‍යයක් සාපේක්ෂ අවකලිත,අර්ධ අවකලිත,ltr
+partial_derivatives,l2_part_ta,ta,பகுதி வகைக்கெழுக்கள்,பல மாறிகள் கொண்ட சார்பில் ஒரு மாறியைப் பொறுத்த வகைக்கெழு,பகுதி வகைக்கெழுக்கள்,ltr
+partial_derivatives,l2_part_ar,ar,المشتقات الجزئية,مشتقة دالة متعددة المتغيرات بالنسبة لمتغير واحد,المشتقات الجزئية,rtl
+partial_derivatives,l2_part_zh,zh,偏导数,多变量函数对单一变量的导数,偏导数,ltr
+multiple_integrals,l2_mult_si,si,බහු අනුකලිත,ද්විමාන හා ත්‍රිමාන ප්‍රදේශ සමඟ අනුකලනය,බහු අනුකලිත,ltr
+multiple_integrals,l2_mult_ta,ta,பல் தொகைகள்,இரு மற்றும் மும்மான பகுதிகளில் தொகையிடல்,பல் தொகைகள்,ltr
+multiple_integrals,l2_mult_ar,ar,التكاملات المتعددة,التكامل على مناطق ثنائية وثلاثية الأبعاد,التكاملات المتعددة,rtl
+multiple_integrals,l2_mult_zh,zh,多重积分,在二维和三维区域上积分,多重积分,ltr
+vector_calculus,l2_vec_si,si,දෛශික කලනය,දෛශික ක්ෂේත්‍ර සමඟ කලනය,දෛශික කලනය,ltr
+vector_calculus,l2_vec_ta,ta,திசையன் கணக்கீடு,திசையன் புலங்களில் நுண்கணிதம்,திசையன் கணக்கீடு,ltr
+vector_calculus,l2_vec_ar,ar,حساب التفاضل والتكامل المتجهي,حساب التفاضل والتكامل المطبق على الحقول المتجهية,حساب التفاضل والتكامل المتجهي,rtl
+vector_calculus,l2_vec_zh,zh,向量微积分,应用于向量场的微积分,向量微积分,ltr
