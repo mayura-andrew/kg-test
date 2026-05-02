@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unpack - Scenario Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div>
+            <h1>Unpack</h1>
+            <p>Neuro-Symbolic Educational AI (Standalone Mock UI)</p>
+        </div>
+        <div><small>GH Pages Deploy Status: Operational</small></div>
+    </header>
+    <main class="split-screen">
+        <section class="panel chat-panel">
+            <div class="chat-header">ADK Supervisor Chat</div>
+            <div id="chat-history" class="chat-history">
+                <div class="message system">System initialized. Try querying the agent with a calculus word problem.</div>
+                <div class="message system" style="margin-top:-5px">E.g., "A ladder leaning against a wall is sliding...", or "Minimize the surface area of a cylindrical can...", or "Find the work done to pump water from a tank..."</div>
+            </div>
+            <div id="typing-indicator" class="typing-indicator hidden">Agent routing query...</div>
+            <div class="chat-input-area">
+                <textarea id="chat-input" placeholder="Type a calculus word problem..."></textarea>
+                <button id="send-btn">Submit</button>
+            </div>
+        </section>
+        <section class="panel graph-panel">
+            <div class="graph-header">Knowledge Graph Visualizer (Mock Mapping)</div>
+            <div id="graph-container" class="graph-container">
+                <div class="graph-placeholder">Submit a query to map concepts.</div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
