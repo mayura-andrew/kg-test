@@ -62,6 +62,10 @@ CREATE CONSTRAINT problem_type_id_unique IF NOT EXISTS
 CREATE INDEX concept_type IF NOT EXISTS
   FOR (c:Concept) ON (c.type);
 
+// Concept explicit name lookup index
+CREATE INDEX concept_name IF NOT EXISTS
+  FOR (c:Concept) ON (c.name);
+
 // Phase 4 Prereq Graph Builder — filter by curriculum layer
 CREATE INDEX concept_layer IF NOT EXISTS
   FOR (c:Concept) ON (c.curriculum_layer);
