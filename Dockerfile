@@ -14,7 +14,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 COPY --from=builder /build/migrate ./migrate
-COPY docker/wait-for-neo4j.sh ./wait-for-neo4j.sh
+COPY wait-for-neo4j.sh ./wait-for-neo4j.sh
 RUN chmod +x ./wait-for-neo4j.sh
 ENV NEO4J_URI="bolt://neo4j:7687" \
     NEO4J_USER="neo4j" \
